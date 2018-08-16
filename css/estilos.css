@@ -1,0 +1,27 @@
+body {
+	background-color: #CCC9C9;
+}
+
+.titulo {
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.container {
+	background-color: #FFF;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#elmapa {
+	margin: 0 auto;
+	min-width: 500px;
+	height: 100px;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer {
+	padding-bottom: 30px;
+	font-size: 0.8rem;
+}

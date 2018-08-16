@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>	
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+	<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyDMIStDHMyXP7nBGC8AoO4D9gJEsei5gO4"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/script.js"></script>
+	
+	<title>Mejores Restaurantes</title>
+</head>
+<body>
+	<div class="container">
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/restau1.jpg" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/restau2.jpg" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/restau3.jpg" alt="Third slide">
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="container">
+		<h1 class="text-center titulo">Los Mejores Restaurantes por Rating</h1>
+
+		
+	  	<div class="col-sm-12">		           
+			<table id="mi_tabla" class="table table-responsive table-bordered">
+				<tbody>
+					
+				</tbody>
+			</table>
+		</div>
+
+		<div>
+			<nav aria-label="...">
+			  <ul id="milista" class="pagination">
+			    <li id="primero" class="page-item disabled">
+			      <a class="page-link" href="#">&laquo;</a>
+			    </li>
+			    <li class="page-item active">
+			    	<a class="page-link" href="#">1</a>
+			    </li>
+
+			    <li class="page-item">
+			      	<a class="page-link" href="#">2</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">3</a>
+			    </li>
+
+			    <li class="page-item">
+			    	<a class="page-link" href="#">4</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">5</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">6</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">7</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">8</a>
+			    </li>
+			    <li class="page-item">
+			    	<a class="page-link" href="#">9</a>
+			    </li>				    
+			    <li class="page-item">
+			    	<a class="page-link" href="#">10</a>
+			    </li>			    
+
+			    <li id="ultimo" class="page-item">
+			      	<a class="page-link" href="#">&raquo;</a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+
+		<div class="col-sm-12" id="elmapa">		           
+			
+		</div>
+		<hr>
+		<footer>
+			<p class="text-center">Angel Gabriel Muñoz Pedro, 2018</p>
+			<p class="text-center">
+				<i class="fas fa-envelope"></i> agmp@prodigy.net.mx
+			</p>
+			<p class="text-center">
+				<i class="fas fa-phone-square"></i> 044 55 2879 3099 / 2291 1943
+			</p>
+		</footer>
+
+	</div>
+</body>
+</html>
